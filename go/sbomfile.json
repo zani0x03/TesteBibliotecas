@@ -1,0 +1,61 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:ca5ff116-9f67-4bae-b7e8-1ee803436c93",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-01-15T18:14:17-03:00",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-gomod",
+        "version": "v1.5.0",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "3dfbb8266d4de6ba9d260142db01b2f5"
+          },
+          {
+            "alg": "SHA-1",
+            "content": "fdab31891e0aec41c0a87150b10a3e72d0c3872e"
+          },
+          {
+            "alg": "SHA-256",
+            "content": "9c340158be6f192eb02543cba18d17bb834fad38af245c968f1a0e23b56c8543"
+          },
+          {
+            "alg": "SHA-384",
+            "content": "09b8bcc91a2d65125b1f2a3b1ab265d2bdba2ae1f8ada87dab94e26f9d3988d9bb0c883be58f3d6da483e6493f860345"
+          },
+          {
+            "alg": "SHA-512",
+            "content": "a5228ff3d415c000ed6fec5976fa390a9b24e21225971ecf6938289d02e98f8a9abd87b8e240256b67f093974a3a6d4d6b543514d3b59375b03d1102fed3b898"
+          }
+        ],
+        "externalReferences": [
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-gomod",
+            "type": "vcs"
+          },
+          {
+            "url": "https://cyclonedx.org",
+            "type": "website"
+          }
+        ]
+      }
+    ],
+    "component": {
+      "bom-ref": "pkg:golang/teste.bibliotecas.go@v0.0.0-20240115200224-00aff33842d7?type=module",
+      "type": "application",
+      "name": "teste.bibliotecas.go",
+      "version": "v0.0.0-20240115200224-00aff33842d7",
+      "purl": "pkg:golang/teste.bibliotecas.go@v0.0.0-20240115200224-00aff33842d7?type=module\u0026goos=linux\u0026goarch=amd64"
+    }
+  },
+  "dependencies": [
+    {
+      "ref": "pkg:golang/teste.bibliotecas.go@v0.0.0-20240115200224-00aff33842d7?type=module"
+    }
+  ]
+}

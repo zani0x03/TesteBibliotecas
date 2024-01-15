@@ -15,7 +15,8 @@ func returnInformation(w http.ResponseWriter, r *http.Request) {
 	information := Information{
 		Data: "Hello World",
 	}
-	fmt.Println("Endpoint Hit: returnAllArticles")
+	fmt.Println("Endpoint Hit: return Hello World")
+	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(information)
 }
 
